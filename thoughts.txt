@@ -1,0 +1,26 @@
+if (changeSquare >= 0 
+    && changeSquare <= 100) {
+
+        you want to use generateContent
+        function and multiply given number
+        by itself to equal numberOfItems
+        
+        then you want to run through the
+        function and print out the new 
+        border and delete the old border
+
+    } else {
+        return;
+    }
+
+
+
+    error that you need to fix
+    // on click prompt, change number, - works
+    // however I haven't been able to figure out
+    // how to delete the previous grid from
+    // generateContent and print out a new one
+
+    // also the grid, depending on the number
+    // doesn't do balanced (i.e. 100x100, 50x 50)
+    // it's like 16 across and like a lot more down

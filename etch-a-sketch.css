@@ -5,11 +5,14 @@
     padding: 5px;
 }
 
+.item:hover {
+    background-color: blue;
+}
+
 #container {
-    border: 3px solid black;
-    padding: 16px;
-    background: blue;
+    background: white;
     margin: 8px;
+    padding: 15px;
     display: flex;
     flex-wrap: wrap;
     max-width: 300px;
