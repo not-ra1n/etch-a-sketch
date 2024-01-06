@@ -1,26 +1,34 @@
-if (changeSquare >= 0 
-    && changeSquare <= 100) {
-
-        you want to use generateContent
-        function and multiply given number
-        by itself to equal numberOfItems
-        
-        then you want to run through the
-        function and print out the new 
-        border and delete the old border
-
-    } else {
-        return;
-    }
-
-
 
     error that you need to fix
-    // on click prompt, change number, - works
-    // however I haven't been able to figure out
-    // how to delete the previous grid from
-    // generateContent and print out a new one
-
+    
     // also the grid, depending on the number
     // doesn't do balanced (i.e. 100x100, 50x 50)
-    // it's like 16 across and like a lot more down
+    // it's like 16 across and like a lot more down]
+
+
+
+based off the number given, you want that number to
+be the number of squares per side. 
+The problem is that it doesn't do that.
+The amount of squares should fill up the total space
+depending on the number.
+Like there should be balanced space between each box.
+The way I think I could do this is through the flex
+property.
+I think each item should fill up the same amount of space
+depending on the number.
+
+number = 16
+there should only be 16 boxes at the top
+
+/ note 
+flex-wrap: wrap; contradicts align-items: stretch for some reason
+
+
+something is probably wrong with height and width of the items
+
+
+create a new row within the container,
+    create the amount of divs
+    based on the number given within that row,
+after that create a new row until you hit number
